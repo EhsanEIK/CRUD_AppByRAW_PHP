@@ -9,7 +9,7 @@ $sql = "DELETE FROM StudentTable WHERE Id=$id";
 if($conn->query($sql))
 {
 	$_SESSION['msg']="Deleted Successfully";
-	header("Location:Sindex.php");
+	header("Location:index.php");
 }
 else{
 	echo "Not Deleted";

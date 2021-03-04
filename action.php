@@ -12,7 +12,7 @@ $sql =
 if($conn->query($sql))
 {
 	$_SESSION['msg']="Student Added Successfully";
-	header("Location:Sindex.php");
+	header("Location:index.php");
 }
 else{
 	echo "Not Inserted";

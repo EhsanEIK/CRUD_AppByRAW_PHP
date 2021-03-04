@@ -29,7 +29,7 @@ session_start();
 
 		<center>
 			<h2 class="jumbotron">View</h2>
-			<a href="SIndex.php" class="btn btn-warning btn-sm">Home</a>
+			<a href="index.php" class="btn btn-warning btn-sm">Home</a>
 			<a href="edit.php?id=<?php echo $student['Id']; ?>" class="btn btn-primary btn-sm">Edit</a>
 			<table>
 				<tr>
